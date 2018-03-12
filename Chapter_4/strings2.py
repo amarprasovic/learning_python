@@ -33,5 +33,9 @@ print(line.rstrip())
 
 print(line.rstrip().split(','))
 
+print('%s, eggs, and %s' %('spam', 'SPAM'))         #Substitution C-like
 
+print('{}, eggs and {}'.format('spam', 'SPAM'))     #Substitution new from 2.7, 3.0
+
+print('{0}, eggs and {1}'.format('spam', 'SPAM'))   #Substitution old (works with 3.6)
 
