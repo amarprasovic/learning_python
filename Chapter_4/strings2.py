@@ -39,3 +39,5 @@ print('{}, eggs and {}'.format('spam', 'SPAM'))     #Substitution new from 2.7, 
 
 print('{0}, eggs and {1}'.format('spam', 'SPAM'))   #Substitution old (works with 3.6)
 
+print("test")
+
